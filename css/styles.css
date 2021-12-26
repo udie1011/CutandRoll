@@ -211,11 +211,11 @@ section:nth-of-type(odd) {
   color: black;
 }
 
-.section__container a {
+/* .section__container a {
   color: #f0efdf;
   text-decoration: none;
   display: block;
-}
+} */
 
 .section__title {
   text-align: center;
@@ -361,6 +361,7 @@ footer .section__discription {
   color: gray;
   text-align: center;
   font-size: 1rem;
+  text-decoration: none;
 }
 
 .footer__title {
