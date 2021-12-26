@@ -76,7 +76,7 @@
               </div>
               <div class="section__input">
                 <p class>Money Spent</p>
-                <input name="Money Spent" type="number" placeholder="e.g. &quot;$1.75&quot;" min="0" max="12" minlength="1" maxlength="20">
+                <input name="Money Spent" required type="number" placeholder="e.g. &quot;$1.75&quot;" min="0" max="12" minlength="1" maxlength="20">
               </div>
               <div class="section__input">
                 <p>First Name</p>
@@ -84,7 +84,7 @@
               </div>
               <div class="section__input">
                 <p>Last Name</p>
-                <input name="Last Name" type="text" placeholder="e.g. &quot;Mond&quot;" minlength="1" maxlength="20">
+                <input name="Last Name" required type="text" placeholder="e.g. &quot;Mond&quot;" minlength="1" maxlength="20">
               </div>
               <div class="section__input">
                 <p>Phone #</p>
@@ -92,12 +92,11 @@
               </div>
               <div class="section__input">
                 <p>Email</p>
-                <input name="Email" type="email" placeholder="e.g. &quot;MMond@gmail.com&quot;" minlength="1" maxlength="20">
+                <input name="Email" required type="email" placeholder="e.g. &quot;MMond@gmail.com&quot;" minlength="1" maxlength="20">
               </div>
               <div class="section__input section__input--grow">
                 <p>Please describe your issue</p>
-                <textarea name="Issue" required class="section__textarea" minlength="10" maxlength="500" placeholder="e.g. &quot;Machine ate my money and is not working.&quot;">
-                </textarea>
+                <textarea name="Issue" required class="section__textarea" minlength="10" maxlength="500" placeholder="e.g. &quot;Machine ate my money and is not working.&quot;"></textarea>
               </div>
               <div class="section__input section__input--grow">
                 <button name="submit" class="section__input--submit" type="submit">Submit</button>
