@@ -173,15 +173,16 @@ header {
 
 .header__img {
   max-width: 100%;
-  max-height: 55vh;
-  border-radius: 20px;
-  border: solid rgb(199, 193, 190) 5px;
+  max-height: 70vh;
+  /* border-radius: 20px; */
+  /* border: solid rgb(199, 193, 190) 5px; */
+  padding: 50px 0px;
   box-sizing: border-box;
-  margin: 50px auto;
+  margin: 0px auto;
   display: flex;
   justify-content: center;
   position: relative;
-  z-index: 2;
+  z-index: 0;
 }
 
 #header__img--refund {
