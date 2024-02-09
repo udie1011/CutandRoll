@@ -4,22 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Info about your favorite car wash in Four Oaks NC"
-    />
+    <meta name="description" content="Info about your favorite car wash in Raleigh NC!"/>
     <meta property="og:title" content="American Wash Official Website" />
-    <meta
-      property="og:description"
-      content="Info about your favorite car wash in Four Oaks NC"
-    />
+    <meta property="og:description" content="Info about your favorite car wash in Four Oaks NC!"/>
     <meta property="og:type" content="website" />
-    <meta
-      property="og:image"
-      content="http://www.americanwash.net/logo_full_size.4ed7800f.png"
-    />
+    <meta property="og:image" content="images/Photo4.webp"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&family=PT+Sans:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="images/favicon.png" type="image/png">
     <meta property="og:url" content="https://americanwash.net/" />
-    <title>🌊 American Wash</title>
+    <title>American Wash</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,6 +28,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap" rel="stylesheet">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -48,13 +48,16 @@
   <body>
     <div class="home" id="home" onclick="scrollTo(0, 0)">🏡</div>
     <header class="header">
-      <div class="section">
+      <div class="section flexSpace">
         <img class="header__img" src="images/logo_full_size.png" alt="" />
-        <!-- <h1 class="header__title">AMERICAN WASH</h1> -->
+        <!-- <h1 class="header__title">Wash and Roll</h1> -->
         <h2 class="header__subtitle">"Always clean, always working"</h2>
         <ul class="header__navigation">
           <li id="liAbout">About</li>
+          <li id="liPictures">Pictures</li>
+          <li id="liUnlimited">Wash Packages</li>
           <li id="liRefund">Problem</li>
+          <li id="liContact">Contact</li>
         </ul>
         <!-- fix border -->
       </div>
@@ -64,17 +67,81 @@
         <div class="section__container">
           <h1 class="section__title">About</h1>
           <p class="section__discription">
-            American is a self serve car wash that has been serving the
-            community of Four Oaks, NC for over 20 years. It is equipped with
-            interior vaccums, a carpet cleaner, pressure washers, foam guns,
-            foam brushes, a vending machine with detail accessories, and a
+            American Wash is a self-serve and touchless car wash that has been serving
+            Four Oaks for over 20 years! It is equipped with
+            interior vaccums, a vending machine with detail supplies, dollar to quarter converter, carpet cleaner, fragrance machine, and a
             touchless automatic wash.
-            <br /><br />Prices <br />Vacuum: $2.00 <br />Wash Bay: $2.00
-            <br />Automatic: $8, $10, or $12 <br /><br />Address: <br />103 Keen Rd
+            <br /><br />Prices <br />Vacuum: $2.00
+            <br />Automatic: $8, $10, $12 <br /><br />Address: <br />103 Keen Rd
             <br />Four Oaks NC 27524
           </p>
         </div>
         <p class="section__emoji">ℹ️</p>
+      </div>
+    </section>
+    <section id="sectionPictures">
+      <!-- <div class="section"> -->
+        <div class="section__container">
+          <h1 class="section__title">Pictures</h1>
+          <div class="pictureLayoutVertical">
+            <div class="pictureLayoutHorizaontal">
+              <div class="imageContainer">
+                <img class="section__pictures" src="images/Photo1.webp" alt="">
+              </div>
+              <div class="imageContainer">
+                <img class="section__pictures" src="images/Photo2.webp" alt="">
+              </div>
+            </div>
+            <div class="pictureLayoutHorizaontal">
+              <div class="imageContainer">
+                <img class="section__pictures" src="images/Photo3.webp" alt="">
+              </div>
+              <div class="imageContainer">
+                <img class="section__pictures" src="images/Photo4.webp" alt="">
+              </div>
+            </div>
+              <div class="pictureLayoutHorizaontal">
+                <div class="imageContainer">
+                  <img class="section__pictures" src="images/Photo5.webp" alt="">
+                </div>
+                <div class="imageContainer">
+                  <img class="section__pictures" src="images/Photo6.webp" alt="">
+                </div>
+              </div>
+          </div>
+        </div>
+        <p class="section__emoji">🖼️</p>
+      </div>
+    </section>
+    <section id="sectionUnlimited">
+      <div class="section">
+        <div class="section__container">
+          <h1 class="section__title">Wash Packages</h1>
+          <h2 class="section__discription alignCenter">*Pricing is per wash</h2>
+          <div class="washPlans">
+            <a href="https://app.everwash.com/#checkout/6592/blue" class="washPlan washPlan__platinum">
+              <h3>Works Wash</h3>
+              <p>C-FORCE Ceramic Surface Protectant, Triple Foam Polish, Turbo Dry, Underbody Blast, Wheel Blaster, Foam Bath, Spot Free Rinse </p>
+              <p class="priceBadge">$12</p>
+            </a>
+            <a href="https://app.everwash.com/#checkout/6591/orange" class="washPlan washPlan__gold">
+              <h3>Deluxe Wash</h3>
+              <p>Clear Coat Protectant, Triple Foam Polish, Turbo Dry, Underbody Blast, Wheel Blaster, Foam Bath, Spot Free Rinse </p>
+              <p class="priceBadge">$10</p>
+            </a>
+            <a href="https://app.everwash.com/#checkout/6590/green" class="washPlan washPlan__silver">
+              <h3>Super Wash</h3>
+              <p>Drying Agent, Turbo Dry, Underbody Blast, Wheel Blaster, Foam Bath, Spot Free Rinse </p>
+              <p class="priceBadge">$8</p>
+            </a>
+            <!-- <a href="https://app.everwash.com/#checkout/6589/red" class="washPlan washPlan__express">
+              <h3>Express</h3>
+              <p>Foam Bath, Spot Free Rinse </p>
+              <p class="priceBadge">$18</p>
+            </a> -->
+          </div>
+        </div>
+        <p class="section__emoji">🎉</p>
       </div>
     </section>
     <section id="sectionRefund">
@@ -83,7 +150,7 @@
           <h1 class="section__title">Problem</h1>
           <div class="section__discription">
             <p>
-              To report a problem, please select the machine and describe your
+              To report a problem, please specify the machine and describe your
               issue below. Your request will be processed as soon as possible.
             </p>
             <img
@@ -117,7 +184,7 @@
                   type="number"
                   placeholder='e.g. "$1.75"'
                   min="0"
-                  max="12"
+                  max="20"
                 />
               </div>
               <div class="section__input">
@@ -171,7 +238,7 @@
                   required
                   class="section__textarea"
                   minlength="10"
-                  maxlength="500"
+                  maxlength="1000"
                   placeholder='e.g. "Machine ate my money and is not working."'
                 ></textarea>
               </div>
@@ -201,8 +268,8 @@
                 target="_blank"
                 class="footer__disclaimer"
                 href="https://www.google.com/maps/dir/?api=1&destination=American+Wash+Four+Oaks+NC"
-                >103 Keen Rd Four Oaks, NC 27524</a
-              ><br /><br />
+                >103 Keen Rd Four Oaks NC, 27524</a
+              ><br />
               <a
                 target="_blank"
                 class="footer__disclaimer"
