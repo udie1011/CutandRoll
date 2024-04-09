@@ -25,8 +25,8 @@ liContact.addEventListener('click', function (event) {
 //Home button functionality
 // const home = document.getElementById('home');
 
-home.addEventListener('click', function (event) {
-    scrollTo(0, 0);
-});
+// home.addEventListener('click', function (event) {
+//     scrollTo(0, 0);
+// });
 
 
