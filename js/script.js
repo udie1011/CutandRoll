@@ -5,12 +5,12 @@ liAbout.addEventListener('click', function (event) {
     scrollTo(0, sectionAbout.offsetTop);
 });
 
-liRefund.addEventListener('click', function (event) {
-    scrollTo(0, sectionRefund.offsetTop);
+liServices.addEventListener('click', function (event) {
+    scrollTo(0, sectionServices.offsetTop);
 });
 
-liPictures.addEventListener('click', function (event) {
-    scrollTo(0, sectionPictures.offsetTop);
+liQuote.addEventListener('click', function (event) {
+    scrollTo(0, sectionQuote.offsetTop);
 });
 
 liUnlimited.addEventListener('click', function (event) {
