@@ -609,3 +609,13 @@ footer .section__discription {
   height: 100vh;
   height: 100svh;
 }
+
+.services__ul {
+  list-style: none;
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+.services__li {
+  padding: 20px;
+}
